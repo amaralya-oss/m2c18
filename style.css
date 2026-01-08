@@ -1,0 +1,65 @@
+body {
+    font-family: Raleway, sans-serif;
+    padding-top: 60px;
+    background-color: #F9F9F9;
+}
+
+.navbar-brand img {
+    height: 30px;
+}
+
+.nav-item{
+    font-size: small;
+    align-content: center;
+}
+
+.hero {
+    background-image: url("assets/hero.jpg");
+    background-size: cover;
+    padding: 50px;
+    height: 400px;
+    align-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.204) 1px 1px 2px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.hero h1{
+    font-size: 36px;}
+
+.hero h2{
+    font-size: 18px;
+}
+
+
+.sobremi {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.sobremi h2 {
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.educacion {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.educacion h2 {
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Amara Tripaiñán</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar fijo -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#hero"><img src="assets/logo.png" alt="logo"></a>
+
+            <!-- Botón hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menú -->
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">INICIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobremi">SOBRE MÍ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobremi">TRABAJOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#social"><img src="assets/icon-behance.png"
+                                alt="behance"></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#social"><img src="assets/icon-linkedin.png"
+                                alt="linkedin"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section class="hero" id="hero">
+        <h1>Amara Tripaiñan</h1>
+        <h3>Diseñadora Gráfica & UI</h3>
+        <p>Diseño visual, interfaces y piezas digitales con enfoque en experiencia y responsive</p>
+    </section>
+
+    <!-- Sección Sobre mí + educación etc -->
+    <div class="container text-left">
+        <div class="row align-items-start">
+            <div class="col">
+                <section class="sobremi" id="sobremi">
+                    <h2>Sobre mí</h2>
+                    <p>Soy Diseñadora Gráfica & UI con experiencia en proyectos digitales, creación de piezas visuales y
+                        diseño
+                        de
+                        interfaces. Trabajo con HTML y CSS para comprender y acompañar la implementación del diseño en
+                        web.</p>
+                </section>
+            </div>
+            <div class="col">
+                <section class="educacion">
+                    <h2>Educación, certificados e idiomas</h2>
+                    <p><strong>Diseño gráfico</strong> - Instituto Profesional DUOC UC, 2021</p>
+                    <p><strong>Certificado en Diseño de Interfaces de Usuario (UI)</strong> - Udemy, 2023</p>
+                    <p><strong>Certificado en Diseño de experiencia de Usuarios (UX)</strong> - Udemy, 2023</p>
+                    <p><strong>Inglés Avanzado</strong></p>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección Experiencia -->
+    <section class="experiencia" id="experiencia">
+        <h2>Lo que hago habitualmente</h2>
+
+        <div class="skill">
+            <h3>Diseño de Producto & UI</h3>
+            <p>Diseño visual e interfaces digitales de principio a fin</p>
+        </div>
+
+        <div class="skill">
+            <h3>UI · Sistemas de Diseño</h3>
+            <p>Creación de design systems, metodología Atomic Design y componentes reutilizables</p>
+        </div>
+
+        <div class="skill">
+            <h3>Interacción</h3>
+            <p>Prototipado e interacción en Figma</p>
+        </div>
+
+        <div class="skill">
+            <h3>UX (Aplicado)</h3>
+            <p>Flujos de usuario, arquitectura de información y análisis de referentes</p>
+        </div>
+
+        <div class="skill">
+            <h3>Diseño Visual & Contenido Digital</h3>
+            <p>Piezas gráficas digitales, redes sociales y animaciones básicas</p>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Visual & UI Design</li>
+            <li>Figma</li>
+            <li>Illustrator · Photoshop</li>
+            <li>After Effects (motion)</li>
+            <li>Design Systems</li>
+            <li>Responsive Design</li>
+            <li>HTML & CSS</li>
+        </ul>
+    </section>
+
+    <!-- Sección Trabajos-->
+    <section class="trabajos" id="trabajos">
+        <h2>Trabajos</h2>
+
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna duda? ¡Hablemos!</p>
+        <form action="formulario">
+            <label for="nombre">Nombre y apellido:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required>
+
+            <label for="mensaje">Mensaje</label>
+            <input type="text" id="mensaje" name="mensaje" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <ul>
+            <li><a href="https://www.linkedin.com/in/amara-tripainan-701540239/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.behance.net/atripainan" target="_blank">Behance</a></li>
+        </ul>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
