@@ -4,11 +4,16 @@ body {
     background-color: #F9F9F9;
 }
 
+p {
+    font-size: 16px;
+    color: #242424;
+}
+
 .navbar-brand img {
     height: 30px;
 }
 
-.nav-item{
+.nav-item {
     font-size: small;
     align-content: center;
 }
@@ -26,40 +31,55 @@ body {
     margin: 20px;
 }
 
-.hero h1{
-    font-size: 36px;}
+.hero h1 {
+    font-size: 36px;
+}
 
-.hero h2{
+.hero h2 {
     font-size: 18px;
 }
 
+.hero p {
+    color: #FFFFFF;
+}
 
 .sobremi {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 50px;
     padding-right: 50px;
-
 }
 
 .sobremi h2 {
     font-size: 24px;
     text-align: left;
-    font-weight: bold;
     margin-bottom: 20px;
+    color: #414141;
 }
 
+
+.sobremi button {
+    align-content: center;
+    padding: 10px;
+    left: 271px;
+    top: 978px;
+    background: #FFFFFF;
+    border: 1px solid #c12de7;
+    border-radius: 8px;
+    color: #c12de7;
+}
+
+
 .educacion {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .educacion h2 {
-    font-size: 24px;
+    font-size: 18px;
     text-align: left;
-    font-weight: bold;
     margin-bottom: 20px;
+    color: #414141;
 }
-
