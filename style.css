@@ -9,6 +9,13 @@ p {
     color: #242424;
 }
 
+.trabajos button:hover,
+.contacto button:hover,
+.sobremi button:hover {
+    background-color: #c12de7;
+    color: white;
+}
+
 .navbar-brand img {
     height: 30px;
 }
@@ -30,7 +37,14 @@ p {
     text-shadow: rgba(0, 0, 0, 0.204) 1px 1px 2px;
     border-radius: 30px;
     margin: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
+
+.hero:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.136);
+}
+
 
 .hero h1 {
     font-size: 36px;
@@ -66,7 +80,7 @@ p {
     padding: 10px;
     left: 271px;
     top: 978px;
-    background: #FFFFFF;
+    background: none;
     border: 1px solid #c12de7;
     border-radius: 8px;
     color: #c12de7;
@@ -126,6 +140,16 @@ p {
     border-color: #ffffff31;
 }
 
+.experiencia .col {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experiencia .col:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+
 .experiencia .skill h3 {
     color: white;
     font-size: 20px;
@@ -146,15 +170,15 @@ p {
 }
 
 .habilidades {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     margin: 10px;
     align-content: center;
     border-width: 1px;
     border-style: solid;
-    border-color: #d4d4d4;
+    border-color: #d4d4d452;
     border-radius: 30px;
 
 }
@@ -180,6 +204,18 @@ p {
     width: fit-content;
     display: inline-block;
     justify-content: center;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.habilidades li:hover {
+    background-color: #c12de7;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(193, 45, 231, 0.3);
 }
 
 .trabajos {
@@ -257,7 +293,7 @@ p {
     display: block;
     margin: 50px auto;
     padding: 10px 24px;
-    background: #FFFFFF;
+    background: none;
     border: 1px solid #c12de7;
     border-radius: 8px;
     color: #c12de7;
@@ -268,6 +304,11 @@ p {
     margin: 50px;
 }
 
+.contacto .col {
+    padding: 20px;
+
+}
+
 .contacto label {
     font-size: 14px;
 }
@@ -276,17 +317,87 @@ p {
     display: block;
     margin: 50px auto;
     padding: 10px 24px;
-    background: #FFFFFF;
+    background: none;
     border: 1px solid #c12de7;
     border-radius: 8px;
     color: #c12de7;
     cursor: pointer;
 }
-.footer-content {
-    background-color: #c12de7;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    align-content: center;
 
+.footer-content {
+    background-color: #474647;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    /* 👈 esto cambia el color del texto */
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode p,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+    color: #ffffff;
+}
+
+.dark-mode .habilidades,
+.dark-mode .sobremi,
+.dark-mode .trabajos {
+    background-color: #1e1e1e;
+}
+.section-hidden {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+}
+
+.section-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ===== NAVBAR MODO OSCURO ===== */
+.dark-mode .navbar {
+    background-color: #1e1e1e !important;
+}
+
+.dark-mode .navbar .nav-link {
+    color: #ffffff !important;
+}
+
+.dark-mode .navbar .nav-link:hover {
+    color: #c12de7 !important;
+}
+
+.dark-mode .navbar-brand img {
+    filter: brightness(0) invert(1);
+}
+
+/* Botón hamburguesa */
+.dark-mode .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.dark-mode .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.dark-mode img[src$=".svg"] {
+    filter: invert(1);
+}
+
+/* input/textarea valid */
+.is-valid {
+    border-color: #28a745;
+    background-color: #e6ffe6;
+}
+
+/* input/textarea invalid */
+.is-invalid {
+    border-color: #dc3545;
+    background-color: #ffe6e6;
 }

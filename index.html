@@ -38,19 +38,21 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#hero">INICIO</a></li>
                     <li class="nav-item"><a class="nav-link" href="#sobremi">SOBRE MÍ</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#sobremi">TRABAJOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trabajos">TRABAJOS</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contacto">CONTACTO</a></li>
                     <li class="nav-item"><a class="nav-link" href="https://www.behance.net/atripainan"><img
-                                src="assets/icon-behance.png" alt="behance"></a></li>
+                                src="assets/icon-behance.svg" alt="behance"></a></li>
                     <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/amaratripainan/"><img
-                                src="assets/icon-linkedin.png" alt="linkedin"></a></li>
+                                src="assets/icon-linkedin.svg" alt="linkedin"></a></li>
+                    <button id="themeToggle" class="btn btn-sm"><img src="assets/mode-night.svg" alt="mode-night">Modo
+                        Nocturno</button>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Sección Hero -->
-    <section class="hero" id="hero">
+    <section class="hero section-hidden" id="hero">
         <h1>Amara Tripaiñan</h1>
         <h2>Diseñadora Gráfica & UI</h2>
         <p>Diseño visual, interfaces y piezas digitales con enfoque en experiencia y responsive</p>
@@ -60,7 +62,7 @@
     <div class="container text-left">
         <div class="row align-items-start">
             <div class="col">
-                <section class="sobremi" id="sobremi">
+                <section class="sobremi section-hidden" id="sobremi">
                     <h2>Sobre mí</h2>
                     <img src="assets/image.png" alt="ornamento">
                     <p>Soy Diseñadora Gráfica & UI con experiencia en proyectos digitales, creación de piezas visuales y
@@ -70,7 +72,7 @@
                 </section>
             </div>
             <div class="col">
-                <section class="educacion">
+                <section class="educacion section-hidden">
                     <h2>Educación, certificados e idiomas</h2>
                     <p><strong>Diseño gráfico</strong> - Instituto Profesional DUOC UC, 2021</p>
                     <p><strong>Certificado en Diseño de Interfaces de Usuario (UI)</strong> - Udemy, 2023</p>
@@ -82,7 +84,7 @@
     </div>
 
     <!-- Sección Experiencia -->
-    <section class="experiencia" id="experiencia">
+    <section class="experiencia section-hidden" id="experiencia">
         <h2>Lo que hago habitualmente</h2>
         <div class="container text-center">
             <div class="row align-items-center">
@@ -121,7 +123,7 @@
     </section>
 
     <!-- Sección Habilidades -->
-    <section class="habilidades" id="habilidades">
+    <section class="habilidades section-hidden" id="habilidades">
         <h2>Habilidades</h2>
         <ul>
             <li>Visual & UI Design</li>
@@ -135,7 +137,7 @@
     </section>
 
     <!-- Sección Trabajos-->
-    <section class="trabajos" id="trabajos">
+    <section class="trabajos section-hidden" id="trabajos">
         <h2>Algunos proyectos trabajados</h2>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -176,17 +178,17 @@
     </section>
 
     <!-- Sección Contacto -->
-    <section class="contacto">
+    <section class="contacto section-hidden" id="contacto">
         <div class="container text-left">
             <div class="row align-items-start">
                 <div class="col">
                     <h2>Contacto</h2>
                     <p>¿Tienes alguna duda? ¡Hablemos!</p>
                     <a href="https://www.linkedin.com/amaratripainan/" target="_blank" aria-label="LinkedIn">
-                        <img src="assets/icon-linkedin.png" alt="LinkedIn">
+                        <img src="assets/icon-linkedin.svg" alt="LinkedIn">
                     </a>
                     <a href="https://www.behance.net/atripaina" target="_blank" aria-label="Behance">
-                        <img src="assets/icon-behance.png" alt="Behance">
+                        <img src="assets/icon-behance.svg" alt="Behance">
                     </a>
                 </div>
                 <div class="col">
@@ -236,9 +238,17 @@
         </div>
         </div>
     </footer>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Tu JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
 </body>
 
 </html>
