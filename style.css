@@ -18,6 +18,7 @@ p {
     align-content: center;
 }
 
+
 .hero {
     background-image: url("assets/hero.jpg");
     background-size: cover;
@@ -42,6 +43,7 @@ p {
 
 .hero p {
     color: #FFFFFF;
+    font-size: 16px;
 }
 
 .sobremi {
@@ -119,6 +121,9 @@ p {
     -webkit-backdrop-filter: blur(15px);
     /* Safari */
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff31;
 }
 
 .experiencia .skill h3 {
@@ -135,7 +140,153 @@ p {
 
 }
 
-.experiencia img{
+.experiencia img {
     width: 90px;
     padding-bottom: 20px;
+}
+
+.habilidades {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 10px;
+    align-content: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d4d4d4;
+    border-radius: 30px;
+
+}
+
+.habilidades h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #414141;
+}
+
+.habilidades ul {
+    list-style-type: none;
+}
+
+.habilidades li {
+    font-size: 16px;
+    padding: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c12de7;
+    border-radius: 20px;
+    margin: 10px;
+    width: fit-content;
+    display: inline-block;
+    justify-content: center;
+}
+
+.trabajos {
+    margin: 30px;
+    padding-top: 30px;
+}
+
+.trabajos h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #414141;
+}
+
+.trabajos .card {
+    position: relative;
+    /* IMPORTANTE para el overlay */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    /* para que el overlay respete el borde */
+}
+
+.trabajos .card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* ===== OVERLAY ===== */
+.trabajos .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    /* 👈 clave */
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    /* espacio entre h5 y botón */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.trabajos .overlay h5 {
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.trabajos .card:hover .overlay {
+    opacity: 1;
+}
+
+.trabajos .card button {
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    background: none;
+}
+
+@media (max-width: 768px) {
+    .trabajos .overlay {
+        display: none;
+    }
+}
+
+/* ===== BOTÓN ===== */
+.trabajos button {
+    display: block;
+    margin: 50px auto;
+    padding: 10px 24px;
+    background: #FFFFFF;
+    border: 1px solid #c12de7;
+    border-radius: 8px;
+    color: #c12de7;
+    cursor: pointer;
+}
+
+.contacto {
+    margin: 50px;
+}
+
+.contacto label {
+    font-size: 14px;
+}
+
+.contacto button {
+    display: block;
+    margin: 50px auto;
+    padding: 10px 24px;
+    background: #FFFFFF;
+    border: 1px solid #c12de7;
+    border-radius: 8px;
+    color: #c12de7;
+    cursor: pointer;
+}
+.footer-content {
+    background-color: #c12de7;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    align-content: center;
+
 }
