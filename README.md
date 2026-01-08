@@ -1,6 +1,7 @@
 Proyecto portfolio.
+----
 Este portafolio incluye mi CV, 3 proyectos destacados, habilidades y un formulario de contacto. Además, cuenta con modo claro/oscuro, animaciones al hacer scroll y validación en tiempo real del formulario.
--------
+
 Qué encontrarás
 - Cambio de tema claro/oscuro, incluyendo textos y íconos SVG.
 - Animaciones suaves al desplazarte por las secciones.
