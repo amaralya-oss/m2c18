@@ -36,7 +36,8 @@ p {
 }
 
 .hero h2 {
-    font-size: 18px;
+    font-size: 24px;
+    font-style: italic;
 }
 
 .hero p {
@@ -69,6 +70,10 @@ p {
     color: #c12de7;
 }
 
+.sobremi img {
+    width: 90px;
+    padding-bottom: 20px;
+}
 
 .educacion {
     padding-top: 80px;
@@ -82,4 +87,55 @@ p {
     text-align: left;
     margin-bottom: 20px;
     color: #414141;
+}
+
+.experiencia {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(assets/image\ 1.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    margin: 20px;
+    align-content: center;
+
+}
+
+.experiencia h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: rgba(0, 0, 0, 0.113) 1px 1px 2px;
+
+}
+
+.experiencia .col {
+    margin: 20px;
+    background-color: #efefef0a;
+    padding: 20px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(15px);
+    /* Safari */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}
+
+.experiencia .skill h3 {
+    color: white;
+    font-size: 20px;
+    text-shadow: rgba(0, 0, 0, 0.113) 1px 1px 2px;
+
+}
+
+.experiencia .skill p {
+    color: white;
+    font-size: 16px;
+    text-shadow: rgba(0, 0, 0, 0.113) 1px 1px 2px;
+
+}
+
+.experiencia img{
+    width: 90px;
+    padding-bottom: 20px;
 }
