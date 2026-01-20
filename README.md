@@ -1,5 +1,4 @@
 Proyecto portfolio.
-https://amaralya-oss.github.io/m2c18/
 ----
 Este portafolio incluye mi CV, 3 proyectos destacados, habilidades y un formulario de contacto. Además, cuenta con modo claro/oscuro, animaciones al hacer scroll y validación en tiempo real del formulario.
 
@@ -13,8 +12,12 @@ Qué encontrarás
 Tecnologías
 - HTML, CSS, Bootstrap, jQuery y Google Fonts.
 
-Cómo verlo
-- Solo abre index.html en tu navegador.
+## Enlaces
+Repositorio GitHub:
+https://github.com/amaralya-oss/m2c18
+
+## Sitio publicado (GitHub Pages):
+https://amaralya-oss.github.io/m2c18/
 
 Contacto
 - LinkedIn￼: https://www.linkedin.com/in/amaratripainan/
